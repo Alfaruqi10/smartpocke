@@ -1,7 +1,7 @@
 # Botsmartpocket
 
 ## Installation
-1. Clone the repository: `git clone https://github.com/gvoze32/smartpocke.git`
+1. Clone the repository: `git clone https://github.com/alfaruqi10/smartpocke.git`
 2. Navigate to the project directory: `cd smartpocke`
 3. Install node dependencies: `npm i`
 4. Install py dependencies (optional): `pip install requests beautifulsoup4`
