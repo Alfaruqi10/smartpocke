@@ -82,9 +82,9 @@ const headers = {
 
     console.log(`[ ${moment().format("HH:mm:ss")} ] ` + `Total domain: ${domains.length}`);
 
-    const otpRequestURL = 'https://api.smapocke.app/api/otp/request';
-    const otpVerificationURL = 'https://api.smapocke.app/api/auth/otp';
-    const referralURL = 'https://api.smapocke.app/api/referrals/set-referer/'+referralCode;
+    const otpRequestURL = 'https://api.raiser.co/api/otp/request';
+    const otpVerificationURL = 'https://api.raiser.co/api/auth/otp';
+    const referralURL = 'https://api.raiser.co/api/referrals/set-referer/'+referralCode;
 
     async function makeRequest(url, payload) {
         try {
