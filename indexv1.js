@@ -52,9 +52,9 @@ const headers = {
 
     const domains = fs.readFileSync('domains.txt', 'utf-8').trim().split('\n');
 
-    const otpRequestURL = 'https://api.smapocke.app/api/otp/request';
-    const otpVerificationURL = 'https://smapocke.app/api/auth/otp';
-    const referralURL = 'https://smapocke.app/api/referrals/set-referer/'+referralCode;
+    const otpRequestURL = 'https://api.raiser.co/api/otp/request';
+    const otpVerificationURL = 'https://raiser.co/api/auth/otp';
+    const referralURL = 'https://raiser.co/api/referrals/set-referer/'+referralCode;
 
     async function makeRequest(url, payload) {
         try {
